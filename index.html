@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="javascript:void(0)">Galaxy</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Service">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Products">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container-fluid p-5 bg-primary text-white text-center banner">
+        <h1>Galaxy Hotel</h1>
+        <p>Discover a World of Luxury and Comfort</p> 
+      </div>
+
+      <section>
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 id="About" class="text-center">About us</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur dignissimos necessitatibus, esse labore accusantium explicabo eligendi tempore temporibus cumque hic corrupti, fugiat tenetur corporis quisquam voluptas magnam quam sed distinctio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam commodi totam beatae odit a. Quaerat sunt impedit soluta! Facere, veritatis asperiores iste quisquam dolorem nemo rerum in eveniet aut iure!</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="ab1.jpg" class="w-100" alt="">
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section id="Service">
+        <div class="text-center mt-3">
+            <h1>Services</h1>
+        </div>
+      </section>
+        
+      <div class="container mt-3">
+        <div class="row text-center">
+          <div class="col-lg-4 col-md-6">
+            <img src="s1.jpg" class="w-100" alt="">
+            <h3>Customer Services</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <img src="s2.jpg" class="w-100" alt="">
+            <h3>Room Services</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <img src="s3.jpg" class="w-100" alt="">
+            <h3>Party & Events</h3>        
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+          </div>
+        </div>
+      </div>
+
+      <section id="Products" >
+        <div class="text-center mt-3">
+            <h1>Products</h1>
+        </div>
+      </section>
+
+      <div class="container mt-3">
+        <div class="row text-center">
+          <div class="col-lg-3 col-md-6">
+            <img src="p1.jpg" class="w-100" alt="">
+            <h3>Foods</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <img src="p2.jpg" class="w-100" alt="">
+            <h3>Juices</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <img src="p3.jpg" class="w-100" alt="">
+            <h3>Deserts</h3>        
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+           
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <img src="p4.jpg" class="w-100" alt="">
+            <h3>Beverages</h3>        
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+           
+          </div>
+        </div>
+      </div>
+
+      <section id="Contact" >
+        <div class="text-center mt-3">
+            <h1>Contact Us</h1>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1>Hotel Information</h1>
+                    <h6>Address: [Hotel Address] <br><br>
+                        Phone: [Hotel Phone Number] <br><br>
+                        Email: [Hotel Email] <br><br>
+                        Check-In: [Time] | Check-Out: [Time]</h6>
+                </div>
+                <div class="col-lg-6">
+                    <div class="container">
+                        <h2>Contact</h2>
+                
+                        <form action="submit_form.php" method="POST">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="text" id="phone" name="phone">
+                            </div>
+                
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="4" required></textarea>
+                            </div>
+                
+                            <div class="form-group">
+                                <input type="submit" value="Send Message">
+                            </div>
+                        </form>
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="text-center">
+            <h6>© 2025 Galaxy Hotel. All rights reserved.
+            </h6>
+        </div>
+      </section>
+
+</body>
+</html>
